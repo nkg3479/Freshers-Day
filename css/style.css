@@ -1593,8 +1593,13 @@ body {
       rgba(48, 43, 99, 0.7),
       rgba(36, 36, 62, 0.7)
     ),
+<<<<<<< HEAD
     url(../img/aj6.jpg);
   background-size: 100% 98%;
+=======
+    url(https://www.socialseo.com/wp-content/uploads/2018/11/black-brick.jpg);
+  background-size: cover;
+>>>>>>> fac899f77ae3743b6ee058e451577e3df62b1ef3
   background-position: top;
   position: relative;
 }
@@ -1832,10 +1837,10 @@ body {
       to(rgba(40, 180, 133, 0.8))
     ),
     url(../img/nat-4.jpg);
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(126, 213, 111, 0.8),
-      rgba(40, 180, 133, 0.8)
+    background-image: linear-gradient(
+      to right,
+      rgba(185, 43, 39, 0.5),
+      rgba(21, 101, 192, 0.5)
     ),
     url(../img/nat-4.jpg);
   background-size: cover;
@@ -1844,6 +1849,7 @@ body {
   margin-top: -10rem;
 }
 .section-features > * {
+  
   -webkit-transform: skewY(7deg);
   transform: skewY(7deg);
 }
@@ -1930,6 +1936,9 @@ body {
       url(../img/nat-10.jpg);
   }
 }
+.row .col {
+  border: 0px solid #000;
+}
 .book__form {
   width: 50%;
   padding: 6rem;
@@ -1943,4 +1952,10 @@ body {
   .book__form {
     width: 100%;
   }
+}
+.votephoto{
+  border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+    margin:20px;
 }
