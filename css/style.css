@@ -587,6 +587,7 @@ body {
 .heading-primary--main {
   display: block;
   font-size: 6rem;
+  color: #ede574;
   font-weight: 400;
   letter-spacing: 3.5rem;
   -webkit-animation-name: moveInLeft;
@@ -605,7 +606,7 @@ body {
 }
 .heading-primary--sub {
   display: block;
-  font-size: 2rem;
+  font-size: rem;
   font-weight: 700;
   letter-spacing: 0.5rem;
   -webkit-animation: moveInRight 1s ease-out;
@@ -741,7 +742,7 @@ body {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
 }
 .btn--white {
-  background: linear-gradient(to right, #ffefba, #ffffff);
+  background: linear-gradient(to right, #ede574, #e1f5c4);
 
   color: #777;
 }
@@ -1616,14 +1617,14 @@ body {
         rgba(48, 43, 99, 0.7),
         rgba(36, 36, 62, 0.7)
       ),
-      url(../img/aj6.jpg);
+      url(https://www.socialseo.com/wp-content/uploads/2018/11/black-brick.jpg);
     background-image: linear-gradient(
         to right,
         rgba(15, 12, 41, 0.7),
         rgba(48, 43, 99, 0.7),
         rgba(36, 36, 62, 0.7)
       ),
-      url(../img/aj6.jpg);
+      url(https://www.socialseo.com/wp-content/uploads/2018/11/black-brick.jpg);
   }
 }
 @media only screen and (max-width: 37.5em) {
@@ -1684,7 +1685,7 @@ body {
   position: fixed;
   top: 6.5rem;
   right: 6.5rem;
-  background-image: radial-gradient(#7ed56f, #28b485);
+  background: #292744;
   z-index: 1000;
   -webkit-transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
   transition: -webkit-transform 0.8s cubic-bezier(0.86, 0, 0.07, 1);
@@ -1755,7 +1756,7 @@ body {
 .navigation__link:hover,
 .navigation__link:active {
   background-position: 100%;
-  color: #55c57a;
+  color: #8a2387;
   -webkit-transform: translateX(1rem);
   transform: translateX(1rem);
 }
