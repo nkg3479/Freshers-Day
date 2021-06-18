@@ -221,8 +221,14 @@ body {
 ::-moz-focus-inner {border:0;}
 
 .slide {
-	background-image: url("../img/brick.jpeg");
-	background-size: 40vw 40vw;
+	background-image: linear-gradient(
+      to right,
+      rgba(15, 12, 41, 0.7),
+      rgba(48, 43, 99, 0.7),
+      rgba(36, 36, 62, 0.7)
+    ),
+    url(../img/black-brick.jpg);
+	background-size: cover;
 	padding-bottom: 65px;
 	padding-top: 50px;
 	text-align: center;
