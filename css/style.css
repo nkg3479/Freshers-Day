@@ -586,10 +586,10 @@ body {
 }
 .heading-primary--main {
   display: block;
-  font-size: 6rem;
+  font-size: 7rem;
   color: #ede574;
-  font-weight: 400;
-  letter-spacing: 3.5rem;
+  font-weight: 900;
+  letter-spacing: 0.5rem;
   -webkit-animation-name: moveInLeft;
   animation-name: moveInLeft;
   -webkit-animation-duration: 1s;
@@ -1910,7 +1910,6 @@ body {
   /* -webkit-transform: skewY(-7deg);
   transform: skewY(-7deg);
   margin-top: -10rem; */
-  
 }
 @media only screen and (max-width: 56.25em) {
   .section-stories {
