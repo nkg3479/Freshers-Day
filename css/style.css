@@ -756,13 +756,15 @@ body {
 .btn--white::after {
   background: linear-gradient(to right, #ffefba, #ffffff);
   filter: blur(20px);
-}
-.btn--green {
-  background-color: #55c57a;
   color: #fff;
 }
+.btn--green {
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  color: #000;
+}
 .btn--green::after {
-  background-color: #55c57a;
+  background: linear-gradient(to right, #ffefba, #ffffff);
+  filter: blur(20px);
 }
 .btn::after {
   content: "";
