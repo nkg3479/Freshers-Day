@@ -574,8 +574,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-   color: #777; 
- 
+  color: #777;
 }
 .heading-primary {
   color: #fff;
@@ -624,16 +623,21 @@ body {
   text-transform: uppercase;
   font-weight: 700;
   display: inline-block;
-   background-image: -webkit-gradient(
+  background-image: -webkit-gradient(
     linear,
     left top,
     right top,
     from(purple),
     to(purple)
-  ); 
+  );
   /* background-image: linear-gradient(to right,purple,purple); */
-   background-image:  linear-gradient(to right, rgba(15, 12, 41, 0.7), rgba(48, 43, 99, 0.7), rgba(36, 36, 62, 0.7)); 
-  
+  background-image: linear-gradient(
+    to right,
+    rgba(15, 12, 41, 0.7),
+    rgba(48, 43, 99, 0.7),
+    rgba(36, 36, 62, 0.7)
+  );
+
   -webkit-background-clip: text;
   color: transparent;
   letter-spacing: 0.2rem;
@@ -782,10 +786,10 @@ body {
 .btn-text:link,
 .btn-text:visited {
   font-size: 1.6rem;
-  color:  rgba(48, 43, 99, 0.7);
+  color: rgba(48, 43, 99, 0.7);
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid  rgba(48, 43, 99, 0.7);
+  border-bottom: 1px solid rgba(48, 43, 99, 0.7);
   padding: 3px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
@@ -889,7 +893,7 @@ body {
       from(#ffb900),
       to(#ff7730)
     ), */
-    background-image:url(../img/image1.jpeg);
+  background-image: url(../img/image1.jpeg);
   /* background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
     url(../img/image1.jpeg); */
 }
@@ -901,7 +905,7 @@ body {
       from(#7ed56f),
       to(#28b485)
     ), */
-    background-image:url(../img/image4.jpeg);
+  background-image: url(../img/image4.jpeg);
   /* background-image: linear-gradient(to right bottom, #7ed56f, #28b485),
     url(../img/image2.jpeg); */
 }
@@ -913,7 +917,7 @@ body {
       from(#2998ff),
       to(#5643fa)
     ), */
-    background-image:url(../img/image2.jpeg);
+  background-image: url(../img/image2.jpeg);
   /* background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
     url(../img/nat-7.jpg); */
 }
@@ -1115,7 +1119,7 @@ body {
   }
 }
 .composition__photo:hover {
-  outline: 1.5rem solid  rgba(48, 43, 99, 0.7);
+  outline: 1.5rem solid rgba(48, 43, 99, 0.7);
 
   -webkit-transform: scale(1.05) translateY(-0.5rem);
   transform: scale(1.05) translateY(-0.5rem);
@@ -1366,7 +1370,12 @@ body {
   -webkit-box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   /* background-color: rgba(255, 255, 255, 0.6); */
-  background-image: linear-gradient(to right, rgba(15, 12, 41, 0.7), rgba(48, 43, 99, 0.7), rgba(36, 36, 62, 0.7)); ;
+  background-image: linear-gradient(
+    to right,
+    rgba(15, 12, 41, 0.7),
+    rgba(48, 43, 99, 0.7),
+    rgba(36, 36, 62, 0.7)
+  );
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -1820,7 +1829,7 @@ body {
 }
 .section-about {
   background-color: #f7f7f7;
- 
+
   padding: 25rem 0;
   margin-top: -20vh;
 }
@@ -1835,16 +1844,16 @@ body {
       linear,
       left top,
       right bottom,
-      from(rgba(126, 213, 111, 0.8)),
-      to(rgba(40, 180, 133, 0.8))
+      from(rgba(84, 74, 125, 0.8)),
+      to(rgba(255, 212, 82, 0.5))
     ),
-    url(../img/nat-4.jpg);
+    url(../img/aj5.jpg);
   background-image: linear-gradient(
       to right,
-      rgba(185, 43, 39, 0.5),
-      rgba(21, 101, 192, 0.5)
+      from(rgba(84, 74, 125, 0.8)),
+      to(rgba(255, 212, 82, 0.5))
     ),
-    url(../img/nat-4.jpg);
+    url(../img/aj5.jpg);
   background-size: cover;
   -webkit-transform: skewY(-7deg);
   transform: skewY(-7deg);
@@ -1861,7 +1870,7 @@ body {
 }
 .section-tours {
   background-color: #f7f7f7;
- 
+
   padding: 25rem 0 15rem 0;
   margin-top: -10rem;
 }
@@ -1880,7 +1889,7 @@ body {
   }
 }
 .section-book {
-  padding: 15rem 0;
+  padding: 10% 34%;
   background-image: -webkit-gradient(
     linear,
     left top,
@@ -1888,21 +1897,18 @@ body {
     from(#7ed56f),
     to(#28b485)
   );
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(84, 74, 125, 0.8),
+    rgba(255, 212, 82, 0.5)
+  );
 }
 @media only screen and (max-width: 56.25em) {
   .section-book {
-    padding: 10rem 0;
+    padding: 10% 35%;
   }
 }
 .book {
-  background-image: linear-gradient(
-      105deg,
-      rgba(255, 255, 255, 0.9) 0%,
-      rgba(255, 255, 255, 0.9) 50%,
-      transparent 50%
-    ),
-    url(../img/nat-10.jpg);
   background-size: 100%;
   border-radius: 3px;
   -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
@@ -1910,32 +1916,11 @@ body {
 }
 @media only screen and (max-width: 75em) {
   .book {
-    background-image: linear-gradient(
-        105deg,
-        rgba(255, 255, 255, 0.9) 0%,
-        rgba(255, 255, 255, 0.9) 65%,
-        transparent 65%
-      ),
-      url(../img/nat-10.jpg);
     background-size: cover;
   }
 }
 @media only screen and (max-width: 56.25em) {
   .book {
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(rgba(255, 255, 255, 0.9)),
-        to(rgba(255, 255, 255, 0.9))
-      ),
-      url(../img/nat-10.jpg);
-    background-image: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0.9) 0%,
-        rgba(255, 255, 255, 0.9) 100%
-      ),
-      url(../img/nat-10.jpg);
   }
 }
 .row .col {
@@ -1960,4 +1945,7 @@ body {
   width: 100px;
   height: 100px;
   margin: 20px;
+}
+.contact-youtube {
+  left: 40px;
 }
