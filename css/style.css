@@ -1471,7 +1471,13 @@ body {
   filter: blur(3px) brightness(80%);
 }
 .footer {
-  background-color: #333;
+  background-image: linear-gradient(
+      to right,
+      rgba(15, 12, 41, 0.7),
+      rgba(48, 43, 99, 0.7),
+      rgba(36, 36, 62, 0.7)
+    ),
+    url(../img/black-brick.jpg);
   padding: 10rem 0;
   font-size: 1.4rem;
   color: #f7f7f7;
@@ -1928,14 +1934,16 @@ body {
     to(#28b485)
   );
   background-image: linear-gradient(
-    to right bottom,
-    rgba(84, 74, 125, 0.8),
-    rgba(255, 212, 82, 0.5)
-  );
+      to right,
+      rgba(15, 12, 41, 0.7),
+      rgba(48, 43, 99, 0.7),
+      rgba(36, 36, 62, 0.7)
+    ),
+    url(../img/black-brick.jpg);
 }
 @media only screen and (max-width: 56.25em) {
   .section-book {
-    padding: 10% 35%;
+    padding: 15% 5%;
   }
 }
 .book {
