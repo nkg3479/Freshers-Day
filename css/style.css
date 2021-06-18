@@ -779,16 +779,16 @@ body {
 .btn-text:link,
 .btn-text:visited {
   font-size: 1.6rem;
-  color: #55c57a;
+  color:  rgba(48, 43, 99, 0.7);
   display: inline-block;
   text-decoration: none;
-  border-bottom: 1px solid #55c57a;
+  border-bottom: 1px solid  rgba(48, 43, 99, 0.7);
   padding: 3px;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 .btn-text:hover {
-  background-color: #55c57a;
+  background-color: rgba(48, 43, 99, 0.7);
   color: #fff;
   -webkit-box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
@@ -1112,7 +1112,7 @@ body {
   }
 }
 .composition__photo:hover {
-  outline: 1.5rem solid #55c57a;
+  outline: 1.5rem solid  rgba(48, 43, 99, 0.7);
 
   -webkit-transform: scale(1.05) translateY(-0.5rem);
   transform: scale(1.05) translateY(-0.5rem);
