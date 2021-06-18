@@ -1608,7 +1608,7 @@ body {
       rgba(48, 43, 99, 0.7),
       rgba(36, 36, 62, 0.7)
     ),
-    url(https://www.socialseo.com/wp-content/uploads/2018/11/black-brick.jpg);
+    url(../img/black-brick.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
