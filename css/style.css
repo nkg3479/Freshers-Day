@@ -574,7 +574,8 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 400;
   line-height: 1.7;
-  color: #777;
+   color: #777; 
+ 
 }
 .heading-primary {
   color: #fff;
@@ -1364,7 +1365,8 @@ body {
   margin: 0 auto;
   -webkit-box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: rgba(255, 255, 255, 0.6);
+  /* background-color: rgba(255, 255, 255, 0.6); */
+  background-image: linear-gradient(to right, rgba(15, 12, 41, 0.7), rgba(48, 43, 99, 0.7), rgba(36, 36, 62, 0.7)); ;
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -1818,6 +1820,7 @@ body {
 }
 .section-about {
   background-color: #f7f7f7;
+ 
   padding: 25rem 0;
   margin-top: -20vh;
 }
@@ -1858,6 +1861,7 @@ body {
 }
 .section-tours {
   background-color: #f7f7f7;
+ 
   padding: 25rem 0 15rem 0;
   margin-top: -10rem;
 }
