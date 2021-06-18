@@ -1882,6 +1882,25 @@ body {
 .section-stories {
   position: relative;
   padding: 15rem 0;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right bottom,
+      from(rgba(84, 74, 125, 0.8)),
+      to(rgba(255, 212, 82, 0.5))
+    ),
+    url(../img/aj5.jpg);
+  background-image: linear-gradient(
+      to right,
+      from(rgba(84, 74, 125, 0.8)),
+      to(rgba(255, 212, 82, 0.5))
+    ),
+    url(../img/aj5.jpg);
+  background-size: cover;
+  /* -webkit-transform: skewY(-7deg);
+  transform: skewY(-7deg);
+  margin-top: -10rem; */
+  
 }
 @media only screen and (max-width: 56.25em) {
   .section-stories {
