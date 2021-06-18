@@ -844,30 +844,30 @@ body {
     linear,
     left top,
     right bottom,
-    from(#ffb900),
-    to(#ff7730)
+    from(#f0c27b),
+    to(#4b1248)
   );
-  background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
+  background-image: linear-gradient(to right bottom, #f0c27b, #4b1248);
 }
 .card__side--back-2 {
   background-image: -webkit-gradient(
     linear,
     left top,
     right bottom,
-    from(#7ed56f),
-    to(#28b485)
+    from(#f0c27b),
+    to(#4b1248)
   );
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(to right bottom, #f0c27b, #4b1248);
 }
 .card__side--back-3 {
   background-image: -webkit-gradient(
     linear,
     left top,
     right bottom,
-    from(#2998ff),
-    to(#5643fa)
+    from(#f0c27b),
+    to(#4b1248)
   );
-  background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+  background-image: linear-gradient(to right bottom, #f0c27b, #4b1248);
 }
 .card:hover .card__side--front {
   -webkit-transform: rotateY(-180deg);
