@@ -810,9 +810,10 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 42rem;
+  width: 100%;
 }
 .card__side {
-  height: 42rem;
+  height: 100%;
   -webkit-transition: all 0.8s ease;
   transition: all 0.8s ease;
   position: absolute;
@@ -873,6 +874,7 @@ body {
 }
 .card__picture {
   background-size: contain;
+  width: 100%;
   height: 52rem;
   background-repeat: no-repeat;
   /* background-blend-mode: screen;
@@ -1016,39 +1018,54 @@ body {
 @media only screen and (max-width: 56.25em), only screen and (hover: none) {
   .card {
     height: auto;
+    width: 95.5%;
     border-radius: 3px;
-    background-color: #fff;
+    -webkit-perspective: 150rem;
+    perspective: 150rem;
+    -moz-perspective: 150rem;
+    position: relative;
+    background-image: linear-gradient(to right bottom, #f0c27b, #4b1248);
     -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
   }
   .card__side {
     height: auto;
+    width: 100%;
+    -webkit-transition: all 0.8s ease;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    border-radius: 3px;
+    overflow: hidden;
     position: relative;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
   .card__side--back {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
+    -webkit-transform: rotateY(180);
+    transform: rotateY(180);
     -webkit-clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
     clip-path: polygon(0 15%, 100% 0, 100% 100%, 0% 100%);
   }
   .card:hover .card__side--front {
+    -webkit-transform: rotateY(-180);
+    transform: rotateY(-180);
+  }
+  .card:hover .card__side--back {
     -webkit-transform: rotateY(0);
     transform: rotateY(0);
   }
   .card__details {
     padding: 1rem 3rem;
   }
-  .card__cta {
-    position: relative;
-    top: 0%;
-    left: 0;
-    -webkit-transform: translate(0);
-    transform: translate(0);
-    width: 100%;
+  /* .card__cta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 90%;
     padding: 7rem 4rem 4rem 4rem;
-  }
+  } */
   .card__price-box {
     margin-bottom: 3rem;
   }
