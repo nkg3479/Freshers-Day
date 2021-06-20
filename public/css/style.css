@@ -891,7 +891,7 @@ body {
       from(#ffb900),
       to(#ff7730)
     ), */
-  background-image: url(../img/image1.jpeg);
+  background-image: url(../img/image2.jpeg);
   /* background-image: linear-gradient(to right bottom, #ffb900, #ff7730),
     url(../img/image1.jpeg); */
 }
@@ -915,7 +915,7 @@ body {
       from(#2998ff),
       to(#5643fa)
     ), */
-  background-image: url(../img/image2.jpeg);
+  background-image: url(../img/image1.jpeg);
   /* background-image: linear-gradient(to right bottom, #2998ff, #5643fa),
     url(../img/nat-7.jpg); */
 }
