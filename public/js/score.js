@@ -14,14 +14,25 @@ const votes = {
     EC: 0
 }
 
+//sorting score
 
-let table = document.querySelector('#points');
+let sortedScore= [];
+for (let key in score) {
+    sortedScore.push([key,score[key]]);    
+}
 
-Array.from(table.children).forEach((e) => {
-  let key = e.children[1].innerText;
-  e.children[2].innerText= score[key];
-} )
+sortedScore.sort((a,b) => {
+    return a[1] - b[1];
+});
 
+//updating votes
 Object.keys(votes).forEach((key) => {
         document.querySelector(`#${key}-vote`).innerText = votes[key];
     })
+
+//updating scores
+let table = document.querySelector('#points');
+sortedScore.reverse().forEach((kv,index) => {
+    table.children[index].children[1].innerText=kv[0];
+    table.children[index].children[2].innerText=kv[1];
+})
