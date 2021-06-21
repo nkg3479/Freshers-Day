@@ -3,7 +3,7 @@ const score = {
     CE: 0,
     CS: 0,
     EC: 0,
-    EE: 0,
+    EE: 0
 }
 
 const votes = {
@@ -11,7 +11,7 @@ const votes = {
     ME: 0,
     CE: 0,
     EE: 0,
-    EC: 0,
+    EC: 0
 }
 
 
