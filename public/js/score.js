@@ -1,17 +1,18 @@
 const score = {
-    ME: 0,
-    CE: 0,
-    CS: 0,
-    EC: 0,
-    EE: 0
-}
-
-const votes = {
     CS: 0,
     ME: 0,
     CE: 0,
     EE: 0,
     EC: 0
+}
+
+const votes = {
+    
+    ME: 0,
+    CE: 1,
+    CS: 1,
+    EC: 0,
+    EE: 0
 }
 
 //sorting score
