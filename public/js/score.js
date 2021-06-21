@@ -13,13 +13,13 @@ const votes = {
     EE: 0,
     EC: 0,
 }
-    
+
 
 let table = document.querySelector('#points');
 
 Array.from(table.children).forEach((e) => {
   let key = e.children[1].innerText;
-  e.children[2].innerText= score[key]; 
+  e.children[2].innerText= score[key];
 } )
 
 Object.keys(votes).forEach((key) => {
