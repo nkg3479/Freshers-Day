@@ -18,7 +18,7 @@ const votes = {
 
 let sortedScore= [];
 for (let key in score) {
-    sortedScore.push([key,score[key]]);    
+    sortedScore.push([key,score[key]]);
 }
 
 sortedScore.sort((a,b) => {
