@@ -7,12 +7,12 @@ const score = {
 }
 
 const votes = {
-    
-    ME: 0,
-    CE: 1,
+
+    ME: 3,
+    CE: 4,
     CS: 1,
-    EC: 0,
-    EE: 0
+    EC: 1,
+    EE: 1
 }
 
 //sorting score
